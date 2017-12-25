@@ -1,5 +1,7 @@
 # Answers 
 ## Step 1 
+「センサーデータ](https://1drv.ms/u/s!Aihe6QsTtyqct5lzYR2pCZ9CDUUrbg)
+
 ### 1-1. 
 プロパティ名を変更して、温度、湿度、大気圧、時間、デバイスIDのみを出力してください 
 ### 1-2. 
