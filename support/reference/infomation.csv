@@ -1,0 +1,5 @@
+deviceid,sensortag,maker,room,description
+raspberry1,CC2650,TI,Room A,abcdefg
+raspberry2,CC2650,TI,Room B,012345
+raspberry3,CC2650,TI,Room C,hijkelm
+
