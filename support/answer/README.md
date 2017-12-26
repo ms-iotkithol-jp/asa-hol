@@ -10,18 +10,30 @@
 
 ### 1-2. 
 出力に不快指数を追加してください 
+
+[answer](./Answer.md#1-2)
+
 ### 1-3. 
 3分間の平均温度、最高温度、最低温度を出力してください 
+
+[answer](./Answer.md#1-3)
+
 ### 1-4. 
 温度が、30度以上のレコードのみ抽出してください 
+
+[answer](./Answer.md#1-4)
 
 ## Step 2 
 ### 2-1. 
 deviceIdに紐づけて、[information.csv](../reference/information.csv)の値を出力に追加してください 
 
+[answer](./Answer.md#2-1)
+
 ## Step 3 
 ### 3-1. 
 配列で送られたデータをばらします 
+
+[answer](./Answer.md#3-1)
 
 ## Step 4 
 [位置情報生成エミュレーター ](https://github.com/ms-iotkithol-jp/ASAGeoSample)
