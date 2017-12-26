@@ -149,6 +149,7 @@ TransferMessage.html内の$.ajaxコールは、このロジックをコールす
 TransferMessage.htmlを開くブラウザが増えれば増えるほど、Subscribeしているノードが増えて、Web AppのSignalRの転送負担が増えていくことになり、能力的に厳しくなったら、Web AppのApp Serviceをスケールアップすればよい。（因みに、セミナー当日は40人近くの参加者がいて、Freeだと賄えず、Basicにあげた） 
 
 最後に、データの流れを書いておくので、参考にしてください。 
+
 [CC2650→(BLE)→Raspberry Pi 3(IoT Edge SDK Ver1)]→Azure IoT Hub→Stream Analytics→Event Hub(throughmsg)→Function→SignalR Hub(Message)→TransferMessage.htmlのコールバック（接続文字列を追加）→SendEHController→各自のEvent Hub 
 
 この流れの中で、接続数、メッセージ数、クライアント数によってどこがどう増減するか考えてみてくださいね。基本、金に糸目をつけなければ（素直にスケールアップするってこと）、数千万台のデバイスをつないでも対応可能。 

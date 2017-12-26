@@ -1,9 +1,13 @@
 # Answers 
 ## Step 1 
-「センサーデータ](https://1drv.ms/u/s!Aihe6QsTtyqct5lzYR2pCZ9CDUUrbg)
+[センサーデータ](https://1drv.ms/u/s!Aihe6QsTtyqct5lzYR2pCZ9CDUUrbg)  
+手っ取り早く試したい人は、このデータを使ってください。  
 
 ### 1-1. 
 プロパティ名を変更して、温度、湿度、大気圧、時間、デバイスIDのみを出力してください 
+
+[answer](./Answer.md#1-1)
+
 ### 1-2. 
 出力に不快指数を追加してください 
 ### 1-3. 

@@ -4,6 +4,7 @@ Let's enjoy!
 # Documents 
 - [Overview of Azure Stream Analytics](https://1drv.ms/p/s!Aihe6QsTtyqct5lyv28n0R8WwBB7VQ) 
 - [Training Content](https://1drv.ms/p/s!Aihe6QsTtyqct5lxjFR3gxN8tQg6Fg) 
+- [Step by Step](support/answer)
 
 # Try with [IoT Kit HoL Ver 4](http://github.com/ms-iotkithol-jp/IoTKitHiLV4).
 方法その1）  
