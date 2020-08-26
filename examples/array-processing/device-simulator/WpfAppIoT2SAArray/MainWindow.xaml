@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfAppIoT2SAArray.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppIoT2SAArray"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Name="tbCS" />
+        <Button Name="buttonConnect" Content="Connect" Grid.Row="1" Click="buttonConnect_Click"/>
+        <Button Name ="buttonSend" Content="Send" Grid.Row="3" Click="Send_Click" IsEnabled="False"/>
+        <ListBox Name="lbMessageType" Grid.Row="2"/>
+        <TextBlock Name="tbDesc" Grid.Row="4"/>
+    </Grid>
+</Window>
